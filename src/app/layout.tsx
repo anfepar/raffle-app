@@ -23,12 +23,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header>
+          <h1>Raffle App</h1>
+        </header>
         {children}
+        <footer>
+          Footer
+        </footer>
       </body>
+
     </html>
   );
 }
