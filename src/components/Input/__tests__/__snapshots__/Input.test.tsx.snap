@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should render with correct props 1`] = `
+<div>
+  <label
+    for="inputId"
+  >
+    text label
+  </label>
+  <input
+    disabled=""
+    id="inputId"
+    label="text label"
+    name="name"
+    placeholder="placeholder"
+    required=""
+    type="text"
+    value="value"
+  />
+</div>
+`;
