@@ -1,0 +1,1 @@
+export const centeredContainer = 'flex flex-col items-center justify-center h-screen';
