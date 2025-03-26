@@ -1,9 +1,11 @@
+'use client'
+
+import { Button } from "@components/Button/Button";
+
 export default function Home() {
   return (
     <main>
-      <button>
-        Crear una rifa
-      </button>
+      <Button onClick={() => { }}>Click me</Button>
     </main>
   );
 }
